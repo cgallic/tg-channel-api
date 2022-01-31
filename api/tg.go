@@ -19,7 +19,7 @@ func Main(w http.ResponseWriter, r *http.Request) {
 
 	channelID := r.URL.Query().Get("channelID")
 	if channelID == "" {
-		channelID = "cxumolket" // "durov"
+		channelID = "travladdsafucalls" // "durov"
 	}
 	log.Println("channelID:", channelID)
 
